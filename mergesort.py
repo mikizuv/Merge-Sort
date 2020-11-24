@@ -26,6 +26,7 @@ def mergelist(lst):
             list2=lst.pop(0)
         newlist.append(sort_lists(list1,list2))
 
+#main
 lst=[8,1,23,3,7,9,9,10,0,4,2]
 mylist=[[x] for x in lst]
 while len(mylist)!=1:
